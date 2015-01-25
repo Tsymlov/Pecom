@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *orderNumber;
+
+- (IBAction)checkButtonTapped:(id)sender;
 
 @end
 

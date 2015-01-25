@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3DF1D8651A750D5C00AB1E50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1D8641A750D5C00AB1E50 /* main.m */; };
 		3DF1D8681A750D5C00AB1E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1D8671A750D5C00AB1E50 /* AppDelegate.m */; };
-		3DF1D86B1A750D5C00AB1E50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1D86A1A750D5C00AB1E50 /* ViewController.m */; };
+		3DF1D86B1A750D5C00AB1E50 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1D86A1A750D5C00AB1E50 /* MainViewController.m */; };
 		3DF1D86E1A750D5C00AB1E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1D86C1A750D5C00AB1E50 /* Main.storyboard */; };
 		3DF1D8701A750D5C00AB1E50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1D86F1A750D5C00AB1E50 /* Images.xcassets */; };
 		3DF1D8731A750D5C00AB1E50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1D8711A750D5C00AB1E50 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		3DF1D8641A750D5C00AB1E50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DF1D8661A750D5C00AB1E50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DF1D8671A750D5C00AB1E50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3DF1D8691A750D5C00AB1E50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DF1D86A1A750D5C00AB1E50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DF1D8691A750D5C00AB1E50 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3DF1D86A1A750D5C00AB1E50 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		3DF1D86D1A750D5C00AB1E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DF1D86F1A750D5C00AB1E50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3DF1D8721A750D5C00AB1E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				3DF1D8661A750D5C00AB1E50 /* AppDelegate.h */,
 				3DF1D8671A750D5C00AB1E50 /* AppDelegate.m */,
-				3DF1D8691A750D5C00AB1E50 /* ViewController.h */,
-				3DF1D86A1A750D5C00AB1E50 /* ViewController.m */,
+				3DF1D8691A750D5C00AB1E50 /* MainViewController.h */,
+				3DF1D86A1A750D5C00AB1E50 /* MainViewController.m */,
 				3DF1D86C1A750D5C00AB1E50 /* Main.storyboard */,
 				3DF1D86F1A750D5C00AB1E50 /* Images.xcassets */,
 				3DF1D8711A750D5C00AB1E50 /* LaunchScreen.xib */,
@@ -220,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF1D86B1A750D5C00AB1E50 /* ViewController.m in Sources */,
+				3DF1D86B1A750D5C00AB1E50 /* MainViewController.m in Sources */,
 				3DF1D8681A750D5C00AB1E50 /* AppDelegate.m in Sources */,
 				3DF1D8651A750D5C00AB1E50 /* main.m in Sources */,
 			);
