@@ -14,6 +14,7 @@
 		3DF1D8701A750D5C00AB1E50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1D86F1A750D5C00AB1E50 /* Images.xcassets */; };
 		3DF1D8731A750D5C00AB1E50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1D8711A750D5C00AB1E50 /* LaunchScreen.xib */; };
 		3DF1D87F1A750D5D00AB1E50 /* PecomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1D87E1A750D5D00AB1E50 /* PecomTests.m */; };
+		3DF1D88A1A7529F900AB1E50 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1D8891A7529F900AB1E50 /* OrderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3DF1D8781A750D5D00AB1E50 /* PecomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PecomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF1D87D1A750D5D00AB1E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DF1D87E1A750D5D00AB1E50 /* PecomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PecomTests.m; sourceTree = "<group>"; };
+		3DF1D8881A7529F900AB1E50 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		3DF1D8891A7529F900AB1E50 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				3DF1D86F1A750D5C00AB1E50 /* Images.xcassets */,
 				3DF1D8711A750D5C00AB1E50 /* LaunchScreen.xib */,
 				3DF1D8621A750D5C00AB1E50 /* Supporting Files */,
+				3DF1D8881A7529F900AB1E50 /* OrderViewController.h */,
+				3DF1D8891A7529F900AB1E50 /* OrderViewController.m */,
 			);
 			path = Pecom;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 				3DF1D86B1A750D5C00AB1E50 /* MainViewController.m in Sources */,
 				3DF1D8681A750D5C00AB1E50 /* AppDelegate.m in Sources */,
 				3DF1D8651A750D5C00AB1E50 /* main.m in Sources */,
+				3DF1D88A1A7529F900AB1E50 /* OrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

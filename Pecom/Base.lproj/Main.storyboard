@@ -157,15 +157,16 @@
             </objects>
             <point key="canvasLocation" x="564" y="453"/>
         </scene>
-        <!--View Controller-->
+        <!--Order View Controller-->
         <scene sceneID="zWw-nj-QM2">
             <objects>
-                <viewController id="PhZ-6M-Nh9" sceneMemberID="viewController">
+                <viewController id="PhZ-6M-Nh9" customClass="OrderViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mMb-xO-u63"/>
                         <viewControllerLayoutGuide type="bottom" id="Pfp-j9-lX5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="edG-2C-FXa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btU-pF-ITL">
