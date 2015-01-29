@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface OrderViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *details;
 
 @end
