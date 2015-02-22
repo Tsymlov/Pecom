@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D03222C1A7A2D16006F0AFC /* Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D03222B1A7A2D16006F0AFC /* Networking.m */; };
 		3DF1D8651A750D5C00AB1E50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1D8641A750D5C00AB1E50 /* main.m */; };
 		3DF1D8681A750D5C00AB1E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1D8671A750D5C00AB1E50 /* AppDelegate.m */; };
 		3DF1D86B1A750D5C00AB1E50 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1D86A1A750D5C00AB1E50 /* MainViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D03222A1A7A2D16006F0AFC /* Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		3D03222B1A7A2D16006F0AFC /* Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Networking.m; sourceTree = "<group>"; };
 		3DF1D85F1A750D5C00AB1E50 /* Pecom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pecom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF1D8631A750D5C00AB1E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DF1D8641A750D5C00AB1E50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				3DF1D8621A750D5C00AB1E50 /* Supporting Files */,
 				3DF1D8881A7529F900AB1E50 /* OrderViewController.h */,
 				3DF1D8891A7529F900AB1E50 /* OrderViewController.m */,
+				3D03222A1A7A2D16006F0AFC /* Networking.h */,
+				3D03222B1A7A2D16006F0AFC /* Networking.m */,
 			);
 			path = Pecom;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF1D86B1A750D5C00AB1E50 /* MainViewController.m in Sources */,
+				3D03222C1A7A2D16006F0AFC /* Networking.m in Sources */,
 				3DF1D8681A750D5C00AB1E50 /* AppDelegate.m in Sources */,
 				3DF1D8651A750D5C00AB1E50 /* main.m in Sources */,
 				3DF1D88A1A7529F900AB1E50 /* OrderViewController.m in Sources */,
@@ -421,6 +427,7 @@
 				3DF1D8841A750D5D00AB1E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DF1D8851A750D5D00AB1E50 /* Build configuration list for PBXNativeTarget "PecomTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +436,7 @@
 				3DF1D8871A750D5D00AB1E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
